@@ -1,0 +1,17 @@
+POST http://localhost:8080/product
+Content-Type: application/json
+
+{
+  "name": "Cafeteira Negresco Ultra Rápida",
+  "price": 1500.00,
+  "description": "Cafeteira negresco blablabla"
+}
+
+###
+
+PUT http://localhost:8080/product/5
+Content-Type: application/json
+
+{
+  "price": 2000.00
+}
